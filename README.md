@@ -10,7 +10,7 @@ This is a project made for a Restaurant Menu Website.
 4. Flask module
 5. Python3
 
-# Data
+# <span id="data">Data</span>
 
 1. `python database_setup.py` to build the database.
 2. `python lotsofmenus.py` to write in the data samples.
@@ -21,7 +21,9 @@ This is a project made for a Restaurant Menu Website.
 2.  `git clone http://github.com/<username>/fullstack-nanodegree-vm fullstack`
 3. `vagrant up`  to start up the virtual machine.
 4. `vagrant ssh` to log into the virtual machine.
-5. `python project.py` to start the server.
+5. `cd /vagrant`, copy the project into the directory.
+6. Prepare the data according to [Data](#data)
+7. `python project.py` to start the server.
 
 # <span id="view">Browse Instruction</span>
 
