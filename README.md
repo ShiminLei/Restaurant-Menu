@@ -22,8 +22,29 @@ This is a project made for a Restaurant Menu Website.
 3. `vagrant up`  to start up the virtual machine.
 4. `vagrant ssh` to log into the virtual machine.
 5. `cd /vagrant`, copy the project into the directory.
-6. Prepare the data according to [Data](#data)
+6. Prepare the data according to [Data](#data).
 7. `python project.py` to start the server.
 
 # <span id="view">Browse Instruction</span>
+
+See the home page of certain restaurant:
+
+```url
+http://0.0.0.0:5000/restaurants/<restaurant-id>/menu/
+eg. http://0.0.0.0:5000/restaurants/2/menu/
+```
+
+See the JSON of certain restaurant:
+
+```url
+http://0.0.0.0:5000/restaurants/<restaurant-id>/menu/JSOn
+eg. http://0.0.0.0:5000/restaurants/2/menu/JSON
+```
+
+See the JSON of certain menu of certain restaurant:
+
+```url
+http://0.0.0.0:5000/restaurants/<restaurant-id>/menu/<menu-id>/JSOn
+eg. http://0.0.0.0:5000/restaurants/2/menu/3/JSON
+```
 
